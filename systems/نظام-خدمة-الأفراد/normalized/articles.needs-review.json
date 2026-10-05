@@ -1,0 +1,1282 @@
+{
+  "dataset": "personnel-service-law",
+  "generated_from": "systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md",
+  "generated_at": "2026-10-05",
+  "legal_status_notice": "These records are normalized from the supplied source snapshot. They are not asserted to be the current effective wording until amendment verification is completed.",
+  "article_count": 73,
+  "articles": [
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "1",
+      "current_text": "تطبق احكام هذا النظام على جميع الافراد العسكريين السعوديين العامليين في:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "2",
+      "current_text": "التعريفات والرتب:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "3",
+      "current_text": "أ- الرتب العسكرية للأفراد هي:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "4",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "5",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "6",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "7",
+      "current_text": "يلزم الفرد بعد تعيينه البقاء في الخدمة لمدة أربع سنوات ويجوز بعدها انهاء خدمته بناء على طلبه ما لم تقضى ظروف العمل العسكري ببقائه.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "8",
+      "current_text": "تجوز ترقية الفرد ما عدا رئيس الرقباء من الرتبة الأدنى إلى الرتبة الأعلى التي تليها مباشرة بقرار من الوزير. أما رئيس الرقباء فلا تجوز ترقيته إلى رتبة ملازم إلا بأمر من القائد الأعلى للقوات المسلحة بناء على توصية الوزير. ولا يتم ترقية الفرد إلا بعد توفر الشروط الآتية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "9",
+      "current_text": "يجوز للوزير الاعفاء من شرط وأكثر من شروط الترقية الواردة في هذا النظام عدا شرط المدة وتوفر الشاغر.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "10",
+      "current_text": "يجوز بصورة استثنائية وفقاً لما تحدده اللائحة التنفيذية منح الفرد الأقدمية لا تزيد عن سنة أو ترقيته للرتبة التي تلي رتبته دون التقيد بشروط الترقية ما عدا الشاغر إذا قام بأعمال مجيده غير عادية في الميدان أو في الخدمة العسكرية ويتم ذلك بقرار من الوزير أما رئيس الرقباء فتتم ترقيته بأمر من القائد الأعلى للقوات المسلحة بناء على توصية الوزير.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "11",
+      "current_text": "أ- تحدد رواتب الأفراد بموجب سلم الرواتب المرفق بهذا النظام ويشمل الراتب الأساسي والعلاوات الدورية.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "12",
+      "current_text": "يمنح الفرد المرقى راتب أول درجة الرتبة المرقى إليها، فإذا كان راتبه عند الترقية ساوياً لراتب هذه الدرجة أو يزيد عليه يمنح راتب أول درجة تتجاوز راتبه.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "13",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "14",
+      "current_text": "يصرف لعائلة الفرد في حالة أسره كامل راتبه مع العلاوات والبدلات إلى أن ينتهي اسره ثم يعامل بموجب ما يصدر بحقه من قرارات.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "14 مكرراً",
+      "current_text": "مرفق المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "15",
+      "current_text": "يمنح الفرد العلاوة الدورية سنوياً وفي سلم الرواتب المرفق بهذا النظام وذلك بنقلة من الدرجة التي يشغلها إلى الدرجة التي تليها مباشرة في الرتبة ذاتها ويتم هذا النقل في أول شهر محرم من كل سنة.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "16",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "17",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "18",
+      "current_text": "تصرف للفرد الذي يعمل في المناطق النائية علاوة وفقاً لما تحدده اللائحة التنفيذية.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "19",
+      "current_text": "يصرف للفرد العلاوات المنصوص عليها في المادتين (17،16) اثناء الاجازة والانتداب كما تصرف للملحق والمبتعث والمندوب إذا زاول نفس اختصاصه وتسقط في حالة عدم مزاولته العمل الذي خصصت العلاوة من أجله.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "20",
+      "current_text": "تؤمن الاعاشة طهياً في الحالات التالية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "21",
+      "current_text": "أ- يجوز في الحالات الاستثنائية صرف بدل الاعاشة نقداً للفراد الذين تمنعهم واجباتهم الرسمية من تناول الاعاشة طهياً أو الذين يتعذر تقديمها لهم طهياً ويصدر بتحديد هذه الحالات قرار من الوزير.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "22",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "23",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "24",
+      "current_text": "بدل التشغيل:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "25",
+      "current_text": "يصرف للفرد بقرار من الوزير مكافأة وفقاً لما تحدده اللائحة التنفيذية في الحالات التالية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "26",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "27",
+      "current_text": "لا يجوز نقل الفرد من وحدته إلى أي وحده أخرى أو من جهة إلى أخرى الا بناء على مقتضيات مصلحة العمل شريطة أن تتلائم الوظيفة المنقول إليها الفرد مع رتبته واختصاصه ويجوز للفرد لا سباب وجيهه ومعقوله أن يتقدم عن طريق مرجعه بطلب كتابي لنقله إلى أي وحده أو جهة أخرى.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "28",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "29",
+      "current_text": "يتم اركاب الفرد بمفرده ذهاباً واياباً على احدى طائرات القوات المسلحة أو تؤمن له تذكرتا ركاب بالدرجة السياحية بالطائرات أو يصرف له ما يعادل قيمة التذكرة السياحية بالطائرة في الحالات الآتية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "30",
+      "current_text": "يتم اركاب الفرد وافراد عائلته ذهاباً واياباً على احدى طائرات القوات المسلحة أو تؤمن لهم تذاكر الاركاب بالدرجة السياحية بالطائرة أو يصرف له ما يعادل قيمة التذاكر السياحية بالطائرة في الحالات الآتية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "31",
+      "current_text": "في حالة انتهاء خدمة الفرد الذي يعمل خارج المملكة يتم ترحيله وعائلته إلى المملكة بالطائرة بالدرجة السياحية وفي حالة وفاة الفرد فيتم بطلب عائلته نقل جثمانه إلى المملكة على نفقة الجهة التابع لها.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "32",
+      "current_text": "يحق للفرد الذي يتمتع بإجازة سنوية أن يحصل على تذكرة اركاب ذهاباً واياباً بنصف الأجرة له ولزوجته وأولاده على طائرات مؤسسة الخطوط الجوية العربية السعودية وفي حدود ما تصل إليه داخل المملكة وذلك لمرة واحدة في السنة.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "33",
+      "current_text": "يعالج الفرد وافراد عائلته الذين يعولهم شرعا بالمستشفيات العسكرية أو الحكومية داخل المملكة على نفقة الحكومة.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "34",
+      "current_text": "أ- يصرف بدل علاج شهري للأفراد الذين يعملون بالخارج وفق الأحكام التي تقررها اللائحة التنفيذية.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "35",
+      "current_text": "إذا قررت اللجنة الطبية تعذر علاج الفرد داخل المملكة فيعالج خارجها على نفقة الجهة التابع لها وفقاً لما تحدده اللائحة التنفيذية.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "36",
+      "current_text": "يجوز الحاق الفرد من قوة إلى قوة أخرى تابعة لنفس الجهة أو منطقة إلى أخرى أو من سلاح إلى سلاح آخر أو من وحدة إلى وحدة أخرى لمدة لا تزيد على سنة قابلة للتجديد لسنة أخرى وذلك بناء على مقتضيات مصلحة العمل أو لظروف الطارئة.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "37",
+      "current_text": "أ- يجوز ندب الفرد للقيام بأعمال وظيفة معينة في جهة حكومية أخرى بطلب تلك الجهة.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "38",
+      "current_text": "أ- يجوز بعد موافقة رئيس مجلس الوزراء إعارة الفرد للعمل لدى احدى الحكومات أو الهيئات الدولية أو المؤسسات العامة أو الخاصة، على أن لا تزيد مدة الإعارة عن سنتين متتاليتين ويجوز تجديدها بموافقة من رئيس مجلس الوزراء لأكثر من ذلك على أن لا تزيد مدة الإعارة بكاملها عن أربع سنوات متتالية ويجوز الغاء قرار الإعارة قبل انتهاء مدتها.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "39",
+      "current_text": "يصرف للفرد المنتدب في مهمة رسمية بدل نقدي عن كل ليله يقضيها خارج مقر عمله وفق الأحكام التي تحددها اللائحة التنفيذية وتحدد هذه اللائحة الزيادة التي تطرأ على ذلك البدل إذا كان الانتداب لخارج المملكة كما تحدد مقدار بدل الانتقال للمنتدب في الداخل والخارج.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "40",
+      "current_text": "يبدأ احتساب بدل الانتداب للفرد من وقت مغادرته مقر عمله الأصلي وينتهي بعودته ولا يدفع له ألا عن الأيام الضرورية لقضاء المهمة ويحتسب بدل الانتداب عن أيام الاجازة المرضية بشرط أن تقع اثناء المدة التي يحتسب عنها بدل الانتداب وأن يخطر الفرد الجهة المنتدب لها أو أقرب إدارة حكومية في حالة عدم وجود قيادة عسكرية بمرضه ويشترط أن توافق الجهة التي انتدبنها على احتساب لهذه المدة انتدابا على الا تزيد عن خمسة عشر يوماً او نصف مدة الانتداب أيهما اقل.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "41",
+      "current_text": "يصرف للفرد بدل الانتداب المقرر عن ليله واحده إذا انتهت المهمة التي كلف بأدائها وعاد الى مقر عمله في اليوم نفسه.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "42",
+      "current_text": "يصرف مقابل بدل الانتداب للفرد الذي تستوجب طبيعة عمله سفرا متواصلا تعويض شهري بقرار من الوزير على الا يزيد عن ثلث راتبه في الشهر الواحد وتحدد لهذه الوظائف بقرار من الوزير.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "43",
+      "current_text": "أ- يجوز ابتعاث الافراد الذين تقتضي مصلحة العمل ابتعاثهم للدراسة او التدريب بداخل المملكة وخارجها وفقا لسياسات التدريب.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "44",
+      "current_text": "خدمة التخصص:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "45",
+      "current_text": "تحدد المستويات الثقافية للقبول طبقا لسياسة التدريب التي تضعها إدارات التدريب والمصدق عليها من الوزير ويمنح المتخرجين بعدد تصنيفهم العلاوات الفنية وفق ما هو منصوص عليه بجدول العلاوات الفنية المرفق في النظام.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "46",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "47",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "48",
+      "current_text": "تصرف رواتب الافراد المجازين في إجازة سنوية مقدما بما في ذلك جميع البدلات والعلاوات كما يصرف بدل الاعاشة نقداً.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "49",
+      "current_text": "يجوز استدعاء الفرد من اجازته السنوية وتقديرها لأسباب تقتضيها ظروف العمل وإذا استدعى الفرد من اجازته السنوية ولم يكن قد استمتع فيها فيعوض بما يعادل قيمة التذاكر السياحية بالطائرة ذهابا وإيابا عن اركابه واركاب عائلته (ان كان قد اصطحبها او نقلها من مقر عمله بسبب تمتعه بالإجازة مع الاحتفاظ له بالجزء المتبقي من اجازته).",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "50",
+      "current_text": "الإجازة العرضية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "51",
+      "current_text": "الإجازة الميدانية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "52",
+      "current_text": "الإجازة الاستثنائية:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "53",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "53 مكرر",
+      "current_text": "مرفق المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "53 مكرر2",
+      "current_text": "مرفق المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "54",
+      "current_text": "بدون اخلال بما ورد في المادتين 7,6 للفرد ان يطلب انهاء خدمته عن طريق طلب مكتوب يتقدمه الى مرجعه المباشر يبدى فيه رغبته في ترك الخدمة العسكرية وللوزير قبول طلبه او رفضه.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "55",
+      "current_text": "على الفرد ان يستمر في أداء واجباته الى أن يبلغ بالقرار الصادر بقبول انهاء خدماته ولا يقبل طلب الفرد إذا كان محالا لمحاكمه عسكريه الابعد انتهاء محاكمته.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "56",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "57",
+      "current_text": "أ- تجوز إعادة الفرد للخدمة إذا دعت الحاجة إلى ذلك وكانت سنه تقل عن سن الإحالة على التقاعد بسنتين على الأقل.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "58",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "59",
+      "current_text": "يجب على الفرد:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "60",
+      "current_text": "يحظر على الأفراد ما يلي:",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "61",
+      "current_text": "تعديلات المادة",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [
+        "source snapshot indicates amendment/addition; authoritative amendment history pending verification"
+      ],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "62",
+      "current_text": "يصنف جميع ضباط الصف والجنود الفنيون والاختصاصيون الذين يتقاضون علاوات فنية او اختصاصية في الفئات التي تتناسب مع اختصاصاتهم ومستوياتهم في جدول العلاوات الفنية وفق اللائحة التنفيذية.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "63",
+      "current_text": "الافراد الذين يتقاضون عند صدور هذا النظام علاوات فنية واختصاصية غير منصوص عليها او يزيد مقدارها عن العلاوات الواردة في هذا النظام يكمل لهم الفرق بين دخلهم السابق لهذا النظام ودخلهم الحالي حتى يتلاشى بهذا الفرق بالترقية او التدرج بالعلاوة الدورية وغير ذلك.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "64",
+      "current_text": "يمنح الفرد العلاوة الدورية المستحقة له خلال عام 1397- في التاريخ الذي يستحق العلاوة الدورية فيه ثم يمنح جميع الافراد العلاوة الدورية بموجب المادة (15) من النظام في اول محرم عام 1398هـ.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "65",
+      "current_text": "الافراد الذين كانوا برتبة وكيل في 1394/11/1هـ ثم صنفوا برتبة رقيب ورقوا بعد ذلك الى رتبة رقيب أول تحسب لهم المدة الزائدة عن أربع سنوات التي قضوها في رتبة وكيل كأقدمية في رتبة رقيب أول على الا يترتب على ذلك أي مزايا ماليه.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "66",
+      "current_text": "يجوز بقرار من الوزير في حالة الحرب والطوارئ عدم التقيد بفقرة أو أكثر كما جاء في المواد (58،57،56) من هذا النظام.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "67",
+      "current_text": "على الوزير المختص كل في جهته تنفيذ احكام بهذا النظام وله الحق في تفويض كل او بعض صلاحياته لمن يراه من المسئولين.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "68",
+      "current_text": "اذا استدعت الحاجة الى إضافة أو تعديل أي حكم في هذا النظام او لائحته التنفيذية وجب اعداد ذلك من قبل لجنة مشكلة من الجهات المعنية بهذا النظام.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "69",
+      "current_text": "يصدر مجلس الوزراء اللائحة التنفيذية المنصوص عليها في هذا النظام.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    },
+    {
+      "system_id": "personnel-service-law",
+      "article_number": "70",
+      "current_text": "لمجلس الوزراء صلاحية تغيير هذا النظام.",
+      "previous_texts": [],
+      "effective_date": null,
+      "amendments": [],
+      "amending_instruments": [],
+      "sources": [
+        "raw snapshot: systems/نظام-خدمة-الأفراد/raw/2026-10-05-source-snapshot.md"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "verified_at": null,
+        "content_sha256": null
+      }
+    }
+  ]
+}
