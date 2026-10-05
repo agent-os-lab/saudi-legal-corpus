@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Saudi Legal Article Record",
+  "type": "object",
+  "required": [
+    "system_id",
+    "article_number",
+    "current_text",
+    "sources",
+    "verification"
+  ],
+  "properties": {
+    "system_id": {
+      "type": "string"
+    },
+    "article_number": {
+      "type": "string"
+    },
+    "current_text": {
+      "type": "string"
+    },
+    "previous_texts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "effective_from": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effective_to": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "effective_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "amendments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "amending_instruments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "source_urls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "minItems": 1
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "partial",
+            "unverified",
+            "needs_review"
+          ]
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
