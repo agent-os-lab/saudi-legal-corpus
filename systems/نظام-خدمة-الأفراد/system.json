@@ -1,0 +1,40 @@
+{
+  "id": "personnel-service-law",
+  "name_ar": "نظام خدمة الأفراد",
+  "name_en": "Personnel Service Law",
+  "jurisdiction": "Saudi Arabia",
+  "status": "in_force",
+  "issue_date_hijri": "1397-03-24",
+  "issue_date_gregorian": "1977-03-14",
+  "effective_from_hijri": "1397-04-01",
+  "issuing_instruments": [
+    {
+      "type": "royal_decree",
+      "number": "م/9",
+      "date_hijri": "1397-03-24"
+    },
+    {
+      "type": "council_of_ministers_decision",
+      "number": "324",
+      "date_hijri": "1397-03-24",
+      "verification_note": "source snapshot metadata shows 1397/3/24; decree preamble cites Council decision on 1397/3/16; date requires authoritative reconciliation"
+    }
+  ],
+  "scope_note": "Applies to Saudi military personnel covered by the system; historical institution names and later terminology substitutions must be resolved through amendment history.",
+  "source_snapshot": "raw/2026-10-05-source-snapshot.md",
+  "normalized": {
+    "articles": "normalized/articles.needs-review.json",
+    "tables": "normalized/tables.needs-review.json"
+  },
+  "counts": {
+    "articles": 73,
+    "base_numbered_articles": 70,
+    "additional_articles": 3,
+    "tables": 3
+  },
+  "verification": {
+    "status": "needs_review",
+    "last_ingested": "2026-10-05",
+    "rule": "Raw source is preserved. Effective text must be reconstructed from official amendment instruments before being promoted to verified/current."
+  }
+}
