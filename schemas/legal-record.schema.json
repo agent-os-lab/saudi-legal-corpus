@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Saudi Legal Record",
+  "type": "object",
+  "required": [
+    "id",
+    "document_type",
+    "title",
+    "status",
+    "sources",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "const": "SA"
+    },
+    "document_type": {
+      "type": "string",
+      "enum": [
+        "system",
+        "regulation",
+        "decision",
+        "royal_order",
+        "royal_decree",
+        "judicial_principle"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "official_number": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "issue_date_hijri": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "issue_date_gregorian": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "effective_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "amended",
+        "repealed",
+        "superseded",
+        "unknown",
+        "needs_review"
+      ]
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "number",
+          "official_text"
+        ],
+        "properties": {
+          "number": {
+            "type": "string"
+          },
+          "official_text": {
+            "type": "string"
+          },
+          "status": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effective_from": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effective_to": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "amendments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "instrument_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "instrument_number": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "instrument_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effective_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "authority": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "accessed_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "official": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "partial",
+            "unverified",
+            "needs_review"
+          ]
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
