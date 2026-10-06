@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Saudi Legal Corpus Read-Only Manifest v1",
+  "type": "object",
+  "required": ["version", "generated_at", "jurisdiction", "repository", "consumption_policy", "systems", "judgments_principles"],
+  "properties": {
+    "version": { "const": 1 },
+    "generated_at": { "type": "string" },
+    "jurisdiction": { "type": "string" },
+    "repository": { "type": "string" },
+    "consumption_policy": {
+      "type": "object",
+      "required": [
+        "qada_minimum_verification_status",
+        "allow_needs_review_in_argument_generation",
+        "allow_partial_in_argument_generation",
+        "fail_closed_on_unknown_status"
+      ],
+      "properties": {
+        "qada_minimum_verification_status": { "const": "verified" },
+        "allow_needs_review_in_argument_generation": { "const": false },
+        "allow_partial_in_argument_generation": { "const": false },
+        "fail_closed_on_unknown_status": { "const": true },
+        "note_ar": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "systems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name_ar", "verification_status", "system_meta_path", "article_dataset_path", "qada_eligible"],
+        "properties": {
+          "id": { "type": "string" },
+          "name_ar": { "type": "string" },
+          "status": { "type": "string" },
+          "verification_status": { "enum": ["verified", "partial", "unverified", "needs_review"] },
+          "system_meta_path": { "type": "string" },
+          "article_dataset_path": { "type": "string" },
+          "table_dataset_path": { "type": ["string", "null"] },
+          "qada_eligible": { "type": "boolean" },
+          "reason_ar": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "judgments_principles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "path", "verification_status", "qada_eligible"],
+        "properties": {
+          "id": { "type": "string" },
+          "path": { "type": "string" },
+          "verification_status": { "enum": ["verified", "partial", "unverified", "needs_review"] },
+          "qada_eligible": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
