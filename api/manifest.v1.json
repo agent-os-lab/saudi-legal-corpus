@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-06",
+  "jurisdiction": "Saudi Arabia",
+  "repository": "agent-os-lab/saudi-legal-corpus",
+  "consumption_policy": {
+    "qada_minimum_verification_status": "verified",
+    "allow_needs_review_in_argument_generation": false,
+    "allow_partial_in_argument_generation": false,
+    "fail_closed_on_unknown_status": true,
+    "note_ar": "لا يجوز لـ QADA استخدام أي سجل كسند نظامي أو اقتباس قضائي ما لم تكن حالته verified."
+  },
+  "systems": [
+    {
+      "id": "personnel-service-law",
+      "name_ar": "نظام خدمة الأفراد",
+      "status": "in_force",
+      "verification_status": "needs_review",
+      "system_meta_path": "systems/نظام-خدمة-الأفراد/system.json",
+      "article_dataset_path": "systems/نظام-خدمة-الأفراد/normalized/articles.needs-review.json",
+      "table_dataset_path": "systems/نظام-خدمة-الأفراد/normalized/tables.needs-review.json",
+      "qada_eligible": false,
+      "reason_ar": "إعادة بناء النص النافذ تاريخياً والتحقق من أدوات التعديل لم تكتمل."
+    }
+  ],
+  "judgments_principles": [
+    {
+      "id": "board-of-grievances",
+      "path": "judgments-principles/board-of-grievances",
+      "verification_status": "unverified",
+      "qada_eligible": false
+    },
+    {
+      "id": "supreme-court",
+      "path": "judgments-principles/supreme-court",
+      "verification_status": "unverified",
+      "qada_eligible": false
+    }
+  ]
+}
