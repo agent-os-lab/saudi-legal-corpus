@@ -25,5 +25,7 @@ jobs:
         run: |
           python -m json.tool api/manifest.v1.json >/dev/null
           python -m json.tool schemas/corpus-manifest-v1.schema.json >/dev/null
-      - name: Enforce QADA fail-closed corpus policy
+      - name: Check manifest structure and eligibility
         run: python verification/check_qada_manifest.py
+      - name: Verify promoted article integrity and hashes
+        run: python verification/verify_manifest.py
