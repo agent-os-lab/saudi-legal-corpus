@@ -135,6 +135,30 @@ for corpus in judgments:
     if eligible and status != "verified":
         fail(f"judgment corpus {corpus.get('id')}: qada_eligible requires verified")
     safe_repo_path(str(corpus.get("path") or ""))
+    dataset_rel = corpus.get("record_dataset_path")
+    if dataset_rel:
+        dataset = load_json(safe_repo_path(str(dataset_rel)))
+        records = dataset.get("records")
+        if not isinstance(records, list):
+            fail(f"judgment corpus {corpus.get('id')}: records dataset must contain records[]")
+        if eligible and not records:
+            fail(f"judgment corpus {corpus.get('id')}: eligible corpus must contain verified records")
+        for record in records:
+            if not isinstance(record, dict):
+                fail(f"judgment corpus {corpus.get('id')}: record must be an object")
+            verification = record.get("verification") or {}
+            principle = record.get("principle") or {}
+            if eligible:
+                if verification.get("status") != "verified":
+                    fail(f"judgment record {record.get('record_id')}: eligible corpus contains non-verified record")
+                if not isinstance(verification.get("content_sha256"), str) or len(verification.get("content_sha256")) != 64:
+                    fail(f"judgment record {record.get('record_id')}: verified record lacks content_sha256")
+                if not record.get("source_url"):
+                    fail(f"judgment record {record.get('record_id')}: source_url required")
+                if principle.get("kind") == "verbatim-official" and principle.get("citation_ready") is not True:
+                    fail(f"judgment record {record.get('record_id')}: verbatim official principle must be citation_ready")
+                if principle.get("kind") == "derived-summary" and principle.get("citation_ready") is True:
+                    fail(f"judgment record {record.get('record_id')}: derived summary cannot be citation_ready")
 
 print(json.dumps({
     "ok": True,
