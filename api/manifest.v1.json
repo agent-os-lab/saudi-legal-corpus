@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "jurisdiction": "Saudi Arabia",
   "repository": "agent-os-lab/saudi-legal-corpus",
   "consumption_policy": {
@@ -28,13 +28,15 @@
       "id": "board-of-grievances",
       "path": "judgments-principles/board-of-grievances",
       "verification_status": "unverified",
-      "qada_eligible": false
+      "qada_eligible": false,
+      "record_dataset_path": "judgments-principles/board-of-grievances/records.json"
     },
     {
       "id": "supreme-court",
       "path": "judgments-principles/supreme-court",
       "verification_status": "unverified",
-      "qada_eligible": false
+      "qada_eligible": false,
+      "record_dataset_path": "judgments-principles/supreme-court/records.json"
     }
   ]
 }
