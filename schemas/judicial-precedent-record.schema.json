@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Saudi Judicial Precedent Record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "court_system",
+    "court_name",
+    "case_number",
+    "judgment_date",
+    "source_url",
+    "principle",
+    "verification"
+  ],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "court_system": {
+      "type": "string",
+      "enum": ["board-of-grievances", "general-judiciary", "supreme-court"]
+    },
+    "court_name": { "type": "string", "minLength": 1 },
+    "court_level": { "type": ["string", "null"] },
+    "circuit": { "type": ["string", "null"] },
+    "case_number": { "type": "string", "minLength": 1 },
+    "judgment_number": { "type": ["string", "null"] },
+    "judgment_date": {
+      "type": "object",
+      "required": ["hijri"],
+      "properties": {
+        "hijri": { "type": "string", "minLength": 1 },
+        "gregorian": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "source_title": { "type": ["string", "null"] },
+    "source_url": { "type": "string", "format": "uri" },
+    "publication_authority": { "type": ["string", "null"] },
+    "facts_summary": { "type": ["string", "null"] },
+    "legal_issues": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "cited_provisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["instrument", "provision"],
+        "properties": {
+          "instrument": { "type": "string" },
+          "provision": { "type": "string" },
+          "source_url": { "type": ["string", "null"], "format": "uri" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "holding_summary": { "type": ["string", "null"] },
+    "outcome": { "type": ["string", "null"] },
+    "principle": {
+      "type": "object",
+      "required": ["text", "kind", "citation_ready"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "kind": {
+          "type": "string",
+          "enum": ["verbatim-official", "derived-summary"]
+        },
+        "citation_ready": { "type": "boolean" },
+        "source_locator": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["verified", "partial", "unverified", "needs_review"]
+        },
+        "verified_at": { "type": ["string", "null"] },
+        "content_sha256": { "type": ["string", "null"] },
+        "source_sha256": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
