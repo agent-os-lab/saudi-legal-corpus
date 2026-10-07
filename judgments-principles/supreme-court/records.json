@@ -1,0 +1,6 @@
+{
+  "dataset": "supreme-court-precedents",
+  "generated_at": "2026-10-07",
+  "legal_status_notice": "Empty verified corpus scaffold. No precedent is citation-ready until an official judicial source is ingested, matched, hashed, and promoted to verified.",
+  "records": []
+}

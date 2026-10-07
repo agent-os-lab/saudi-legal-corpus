@@ -1,0 +1,31 @@
+name: Verify Saudi Legal Corpus
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate JSON syntax
+        run: |
+          python -m json.tool api/manifest.v1.json >/dev/null
+          python -m json.tool schemas/corpus-manifest-v1.schema.json >/dev/null
+      - name: Check manifest structure and eligibility
+        run: python verification/check_qada_manifest.py
+      - name: Verify promoted article integrity and hashes
+        run: python verification/verify_manifest.py
