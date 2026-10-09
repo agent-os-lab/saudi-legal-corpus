@@ -1,0 +1,34 @@
+{
+  "type": "structural-only",
+  "generated_date": "2026-10-09",
+  "source_dataset": "systems/نظام-خدمة-الأفراد/normalized/articles.needs-review.json",
+  "articles_audited": 73,
+  "declared_verified_articles": 0,
+  "articles_marked_needs_review": 73,
+  "source_urls_missing": 73,
+  "effective_dates_missing": 73,
+  "verification_dates_missing": 73,
+  "expected_hashes_missing": 73,
+  "placeholder_articles": 16,
+  "amendments_without_identified_instrument": 16,
+  "priority_articles": {
+    "16": {
+      "status": "needs_review",
+      "placeholder": true,
+      "temporal_verification": false
+    },
+    "17": {
+      "status": "needs_review",
+      "placeholder": true,
+      "temporal_verification": false
+    },
+    "19": {
+      "status": "needs_review",
+      "placeholder": false,
+      "temporal_verification": false
+    }
+  },
+  "verified_current_law_established": false,
+  "caution": "Derived from normalized snapshot metadata, not verified against official texts. Counts must be regenerated after the dataset changes. Do not cite the contents as current effective law.",
+  "regenerate": "npm run audit"
+}

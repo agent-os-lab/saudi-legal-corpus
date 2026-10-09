@@ -1,0 +1,11 @@
+{
+  "name": "saudi-legal-corpus",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test verification/*.test.mjs",
+    "audit": "node verification/audit-personnel.mjs --summary",
+    "audit:full": "node verification/audit-personnel.mjs"
+  }
+}
