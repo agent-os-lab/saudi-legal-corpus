@@ -1,0 +1,40 @@
+{
+  "collection": "personnel-service-law",
+  "candidate_status": "needs_review",
+  "reviewed_as_of": "2026-10-09",
+  "caveat": "These are potential official references. Their exact content, effective versions and amendment instruments have NOT been fetched/compared in this audit.",
+  "links": [
+    {
+      "authority": "هيئة الخبراء بمجلس الوزراء",
+      "kind": "official-system-record",
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b461caf-dc11-46bd-a8fd-ac74009a8724/1",
+      "retrieval_status": "not_independently_checked"
+    },
+    {
+      "authority": "وزارة الداخلية",
+      "kind": "official-pdf",
+      "url": "https://www.moi.gov.sa/wps/wcm/connect/78a98571-0345-4de1-bdec-588ba3dd4d67/Indiviual%2BService.pdf?MOD=AJPERES",
+      "retrieval_status": "search_result_only"
+    },
+    {
+      "authority": "ديوان المظالم",
+      "kind": "official-pdf",
+      "url": "https://www.bog.gov.sa/ScientificContent/RelatedSystems/Documents/%D9%86%D8%B8%D8%A7%D9%85%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D8%A7%D8%AF%201397%D9%87%D9%80.pdf",
+      "retrieval_status": "search_result_only"
+    }
+  ],
+  "priority_articles": [
+    "16",
+    "17",
+    "19"
+  ],
+  "required_review": [
+    "Confirm URL resolves and obtain complete official material",
+    "Reconcile issuing decision metadata against decree preamble",
+    "Identify each amendment instrument and affected article",
+    "Reconstruct as-of-effective versions",
+    "Compare exact official text and record date/hash/provenance",
+    "Promote article status only after independent documented verification"
+  ],
+  "verified_materials": 0
+}
