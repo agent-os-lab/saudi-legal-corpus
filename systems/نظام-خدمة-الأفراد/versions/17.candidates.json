@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "system_id": "personnel-service-law",
+  "calendar": "hijri",
+  "scope": "candidate-transcription-only",
+  "current_law_verified": false,
+  "trust_note": "Search-index extracts are provisional leads. Compare source documents and amendment instruments before declaring the text effective or verified.",
+  "date_reviewed": "2026-10-09",
+  "article_number": "17",
+  "conflicts": [
+    {
+      "kind": "textual-variation",
+      "status": "open",
+      "issue": "Indexed BOE provision and Ministry of Interior historical PDF show materially different subsection A/B phrasing; which version applies at a given time must be determined from promulgated amendments.",
+      "instruments_to_verify": [
+        "م/37 dated 1430/06/30 (mentioned in indexed historical PDF)"
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "version_id": "boe-index-17-20261009",
+      "candidate_text": "أ- يجوز الجمع بين علاوتين وعلاوة واحدة من العلاوات الواردة في جدول العلاوات الاخرى المرفق لهذا النظام والتي تحدد شروط منحها في اللائحة التنفيذية.\nب- لا يجوز الجمع بين علاوتين من العلاوات الواردة في جدول العلاوات الاخرى المرفق بهذا النظام.",
+      "verification_status": "needs_review",
+      "effective_from": null,
+      "effective_to": null,
+      "source": {
+        "authority": "هيئة الخبراء بمجلس الوزراء",
+        "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b461caf-dc11-46bd-a8fd-ac74009a8724/1",
+        "capture_method": "web-search-index-excerpt",
+        "independently_document_compared": false,
+        "source_document_sha256": null
+      },
+      "text_sha256": null,
+      "amendment_instruments": [],
+      "reviewer_approval": null
+    },
+    {
+      "version_id": "moi-pdf-index-17-20261009",
+      "candidate_text": "أ- لا يجوز الجمع بين أكثر من ثلاث علاوات من العلاوات الفنية والعلاوات الأخرى المرفقة بهذا النظام والتي تحدد شروط منحها في اللائحة التنفيذية.",
+      "verification_status": "needs_review",
+      "effective_from": null,
+      "effective_to": null,
+      "source": {
+        "authority": "وزارة الداخلية",
+        "url": "https://legacy.moi.gov.sa/wps/wcm/connect/78a98571-0345-4de1-bdec-588ba3dd4d67/Indiviual%2BService.pdf?CVID=ok4XCaB&MOD=AJPERES",
+        "capture_method": "web-search-index-excerpt",
+        "independently_document_compared": false,
+        "source_document_sha256": null
+      },
+      "text_sha256": null,
+      "amendment_instruments": [
+        {
+          "kind": "royal_decree",
+          "number": "م/37",
+          "date_hijri": "1430-06-30",
+          "note": "Historical PDF search snippet cites amendment to paragraph (ب). Requires official decree and effective-date verification."
+        }
+      ],
+      "reviewer_approval": null
+    }
+  ],
+  "unresolved": [
+    "which-wording-is-operative",
+    "subsection-b-amendment-content",
+    "effective-dates",
+    "full-text-comparison",
+    "source-document-provenance"
+  ]
+}
