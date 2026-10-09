@@ -1,0 +1,34 @@
+{
+  "id": "personnel-service-law-article-17-wording-20261009",
+  "system_id": "personnel-service-law",
+  "article_number": "17",
+  "status": "open",
+  "captured_date": "2026-10-09",
+  "issue": "Search-indexed materials attributed to separate official government sources show differing wording for article 17. Temporal applicability and amendment sequence cannot be established from an indexed excerpt.",
+  "primary_indexed_source": {
+    "authority": "هيئة الخبراء بمجلس الوزراء",
+    "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b461caf-dc11-46bd-a8fd-ac74009a8724/1",
+    "capture_type": "search-index-excerpt",
+    "excerpt_differentiator": "الفقرة (أ) تبدأ: يجوز الجمع بين علاوتين وعلاوة واحدة",
+    "verified_against_full_official_document": false
+  },
+  "second_indexed_source": {
+    "authority": "وزارة الداخلية",
+    "url": "https://legacy.moi.gov.sa/wps/wcm/connect/78a98571-0345-4de1-bdec-588ba3dd4d67/Indiviual%2BService.pdf?CVID=ok4XCaB&MOD=AJPERES",
+    "capture_type": "search-index-excerpt",
+    "excerpt_differentiator": "الفقرة (أ) تبدأ: لا يجوز الجمع بين أكثر من ثلاث علاوات",
+    "indexed_amendment_reference": "المرسوم الملكي م/37 بتاريخ 1430/06/30، بشأن الفقرة (ب)",
+    "verified_against_full_official_document": false
+  },
+  "legal_conclusion": "none",
+  "effective_version_determined": false,
+  "tasks": [
+    "Acquire full original version for each official page/document",
+    "Identify authoritative amendment instruments and versions, especially M/37",
+    "Trace earliest and amended paragraphs separately",
+    "Determine effective period for every verified version",
+    "Capture source artifact SHA256, retrieval timestamp, validation record",
+    "Close conflict only after documented human source review"
+  ],
+  "safety": "Do not claim that one indexed wording controls without reconstructing amendment timeline."
+}
