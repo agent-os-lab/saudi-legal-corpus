@@ -43,7 +43,7 @@ export function candidateEventsForArticle(timeline, number, asOf = null) {
       let relation = "not_requested";
       if (asOf) {
         if (asOf.calendar !== event.instrument_date?.calendar) relation = "calendar_conversion_not_available";
-        else if (!/^\\d{4}-\\d{2}-\\d{2}$/.test(asOf.date || "")) relation = "invalid_as_of_date";
+        else if (!/^\d{4}-\d{2}-\d{2}$/.test(asOf.date || "")) relation = "invalid_as_of_date";
         else relation = event.instrument_date.value <= asOf.date
           ? "instrument_date_on_or_before_request"
           : "instrument_date_after_request";
