@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/agent-os-lab/saudi-legal-corpus/blob/main/schemas/article-versions.schema.json",
+  "title": "Saudi Legal Article Candidate Version Registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "system_id",
+    "article_number",
+    "calendar",
+    "versions",
+    "current_law_verified"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "system_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "article_number": {
+      "type": "string",
+      "minLength": 1
+    },
+    "calendar": {
+      "type": "string",
+      "enum": [
+        "hijri",
+        "gregorian"
+      ]
+    },
+    "current_law_verified": {
+      "type": "boolean"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "trust_note": {
+      "type": "string"
+    },
+    "date_reviewed": {
+      "type": "string"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "status",
+          "issue"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "open",
+              "resolved"
+            ]
+          },
+          "issue": {
+            "type": "string"
+          },
+          "instruments_to_verify": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "versions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "version_id",
+          "candidate_text",
+          "verification_status",
+          "effective_from",
+          "effective_to",
+          "source"
+        ],
+        "properties": {
+          "version_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "candidate_text": {
+            "type": "string"
+          },
+          "verification_status": {
+            "enum": [
+              "needs_review",
+              "unverified",
+              "partial",
+              "verified"
+            ]
+          },
+          "effective_from": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effective_to": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source": {
+            "type": "object",
+            "required": [
+              "authority",
+              "url",
+              "capture_method",
+              "independently_document_compared"
+            ],
+            "properties": {
+              "authority": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "capture_method": {
+                "type": "string"
+              },
+              "independently_document_compared": {
+                "type": "boolean"
+              },
+              "source_document_sha256": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "text_sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "amendment_instruments": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "reviewer_approval": {
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
