@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "system_id": "personnel-service-law",
+  "status": "needs_review",
+  "scope": "Article-level candidate history, NOT validated legal versions",
+  "article_numbers": [
+    "16",
+    "17",
+    "19"
+  ],
+  "source_records": [
+    {
+      "id": "boe-main",
+      "authority": "هيئة الخبراء بمجلس الوزراء",
+      "kind": "official-system-page",
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b461caf-dc11-46bd-a8fd-ac74009a8724/1",
+      "review_status": "official_search_index_only",
+      "full_text_verified": false
+    },
+    {
+      "id": "moi-pdf",
+      "authority": "وزارة الداخلية",
+      "kind": "official-publication-pdf",
+      "url": "https://www.moi.gov.sa/wps/wcm/connect/78a98571-0345-4de1-bdec-588ba3dd4d67/Indiviual%2BService.pdf?MOD=AJPERES",
+      "review_status": "search_result_pdf_excerpts_only",
+      "full_text_verified": false
+    },
+    {
+      "id": "arbiter-secondary",
+      "authority": "مرجع ثانوي",
+      "kind": "third-party-index",
+      "url": "https://law.arbiter.sa/law/%D9%86%D8%B8%D8%A7%D9%85-%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D8%A7%D8%AF",
+      "review_status": "secondary_lead_only",
+      "full_text_verified": false
+    }
+  ],
+  "event_candidates": [
+    {
+      "event_id": "personnel-a16-m56-1397",
+      "article_number": "16",
+      "paragraph": null,
+      "instrument_type": "royal_decree",
+      "instrument_number": "م/56",
+      "instrument_date": {
+        "value": "1397-09-20",
+        "calendar": "hijri"
+      },
+      "effective_date": null,
+      "source_refs": [
+        "arbiter-secondary"
+      ],
+      "verification_status": "needs_review",
+      "text_status": "not_collected",
+      "notes": "Secondary-source amendment lead only. Verify exact decree and effect on article 16 against official original."
+    },
+    {
+      "event_id": "personnel-a17b-m1-1399",
+      "article_number": "17",
+      "paragraph": "ب",
+      "instrument_type": "royal_decree",
+      "instrument_number": "م/1",
+      "instrument_date": {
+        "value": "1399-01-05",
+        "calendar": "hijri"
+      },
+      "effective_date": null,
+      "source_refs": [
+        "moi-pdf"
+      ],
+      "verification_status": "needs_review",
+      "text_status": "not_collected",
+      "notes": "Historical instrument mentioned in official PDF search excerpt; sequence and effect require complete official text."
+    },
+    {
+      "event_id": "personnel-a17b-m9-1403",
+      "article_number": "17",
+      "paragraph": "ب",
+      "instrument_type": "royal_decree",
+      "instrument_number": "م/9",
+      "instrument_date": {
+        "value": "1403-05-24",
+        "calendar": "hijri"
+      },
+      "effective_date": null,
+      "source_refs": [
+        "moi-pdf"
+      ],
+      "verification_status": "needs_review",
+      "text_status": "not_collected",
+      "notes": "Historical instrument mentioned in official PDF search excerpt; sequence and effect require complete official text."
+    },
+    {
+      "event_id": "personnel-a17b-m37-1430",
+      "article_number": "17",
+      "paragraph": "ب",
+      "instrument_type": "royal_decree",
+      "instrument_number": "م/37",
+      "instrument_date": {
+        "value": "1430-06-30",
+        "calendar": "hijri"
+      },
+      "effective_date": null,
+      "source_refs": [
+        "moi-pdf"
+      ],
+      "verification_status": "needs_review",
+      "text_status": "not_collected",
+      "notes": "Official PDF search excerpt indicates amendment of article 17(b). Full promulgated text, entry-into-force date and later amendments not yet reconciled."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "issue-cm-324-date",
+      "kind": "conflicting_issuing_metadata",
+      "details": "Royal decree preamble refers to Council decision 324 on 1397-03-16 AH whereas BOE listing labels decision 324 as 1397-03-24 AH. Do not silently reconcile.",
+      "source_refs": [
+        "boe-main"
+      ],
+      "resolved": false
+    },
+    {
+      "id": "a16-current-version",
+      "article_number": "16",
+      "kind": "missing_verified_article_text",
+      "details": "Current normalized article is placeholder ('تعديلات المادة').",
+      "resolved": false
+    },
+    {
+      "id": "a17-current-version",
+      "article_number": "17",
+      "kind": "missing_verified_article_text",
+      "details": "Current normalized article is placeholder ('تعديلات المادة').",
+      "resolved": false
+    },
+    {
+      "id": "a19-effective-version",
+      "article_number": "19",
+      "kind": "version_and_effective_date_unverified",
+      "details": "Snapshot contains provisional text; no independent official effective-date verification.",
+      "resolved": false
+    }
+  ],
+  "policy": {
+    "status": "leads_only",
+    "official_effective_law_certified": false,
+    "never_compute_effective_date_from_instrument_date": true,
+    "never_use_secondary_source_as_sufficient_verification": true,
+    "promotion_requires": [
+      "full_official_source",
+      "exact_article_text",
+      "identified_amendment_instrument",
+      "established_effective_date",
+      "source_provenance",
+      "independent_reviewer"
+    ]
+  }
+}

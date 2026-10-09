@@ -4,8 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test": "node --test verification/*.test.mjs",
+    "test": "node --test",
     "audit": "node verification/audit-personnel.mjs --summary",
-    "audit:full": "node verification/audit-personnel.mjs"
+    "audit:full": "node verification/audit-personnel.mjs",
+    "audit:timeline": "node verification/audit-timeline.mjs"
   }
 }
