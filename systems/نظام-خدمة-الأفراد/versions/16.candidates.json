@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "system_id": "personnel-service-law",
+  "calendar": "hijri",
+  "scope": "candidate-transcription-only",
+  "current_law_verified": false,
+  "trust_note": "Search-index extracts are provisional leads. Compare source documents and amendment instruments before declaring the text effective or verified.",
+  "date_reviewed": "2026-10-09",
+  "article_number": "16",
+  "versions": [
+    {
+      "version_id": "boe-index-16-20261009",
+      "candidate_text": "يستحق الفرد الفني علاوة فنية بموجب جدول العلاوات الفنية المرفق بهذا النظام ولا يجوز الجمع بين فنيتين وتحدد اللائحة التنفيذية شروط منح هذه العلاوة وتصنيفها وفق التخصصات.",
+      "verification_status": "needs_review",
+      "effective_from": null,
+      "effective_to": null,
+      "source": {
+        "authority": "هيئة الخبراء بمجلس الوزراء",
+        "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b461caf-dc11-46bd-a8fd-ac74009a8724/1",
+        "capture_method": "web-search-index-excerpt",
+        "independently_document_compared": false,
+        "source_document_sha256": null
+      },
+      "text_sha256": null,
+      "amendment_instruments": [],
+      "reviewer_approval": null
+    }
+  ],
+  "unresolved": [
+    "full-official-source-comparison",
+    "historical-amendment-review",
+    "effective-start-date",
+    "official-evidence-hash"
+  ]
+}
